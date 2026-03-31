@@ -15,7 +15,7 @@ pipeline {
         stage('Syntax Check/PEP8'){
             steps {
                 sh '''
-                pylint netman_jenkins_obj2_failure.py --fail-under=5
+                pylint netman_jenkins_obj2.py --fail-under=5
                 '''
             }
         }
@@ -23,7 +23,7 @@ pipeline {
         stage('Running the Application'){
             steps {
                 sh '''
-                python3 netman_jenkins_obj2_failure.py
+                python3 netman_jenkins_obj2.py
                 '''
             }
         }
