@@ -1,0 +1,6 @@
+﻿Router,Mgmt IP,Username,Password,Hostname,Loopback Name,Loopback IP,Loopback Subnet,OSPF Area,Network,Wildcard
+R1,198.51.100.11,thomas,cisco,Router1,Loopback99,10.1.1.1,255.255.255.0,0,10.1.1.0,0.0.0.255
+R2,198.51.100.12,thomas,cisco,Router2,Loopback99,10.1.2.1,255.255.255.0,0,10.1.2.0,0.0.0.255
+R3,198.51.100.13,thomas,cisco,Router3,Loopback99,10.1.3.1,255.255.255.0,0,10.1.3.0,0.0.0.255
+R4,198.51.100.14,thomas,cisco,Router4,Loopback99,10.1.4.1,255.255.255.0,0,10.1.4.0,0.0.0.255
+R5,198.51.100.15,thomas,cisco,Router5,Loopback99,10.1.5.1,255.255.255.0,0,10.1.5.0,0.0.0.255
